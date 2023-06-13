@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery</title>
+
+</head>
+<body>
+
+    <h3>Judul</h3>
+    <div id="tampil1">Isi Dari Tampil 1</div>
+    <div class="tampil1">Isi Dari Class Tampil 1</div>
+
+    <p> Isi Paragraph</p>
+    <div id="Tidur">Tidur</div>
+    <div class="Turu">Turu</div>
+    
+
+
+
+    
+    <script src="jquery.js"></script>
+    <script>
+        //document.getElementByID("tampil1").innerHTML = "Teks Baru";
+
+        $(document).ready(function(){
+            $("#tampil1").html("ALANGKAH INDAHNYA MENGHEMAT WAKTU");
+            $(".tampil1").html("PUSING KEPALA INI");
+            $("h3").html("WELCOME TO PEMROGRAMAN WEB");
+            $("p").html("MAKAN SATE");
+        });
+
+    </script>
+</body>
+</html>
